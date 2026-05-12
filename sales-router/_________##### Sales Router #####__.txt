@@ -1,0 +1,15 @@
+_________##### Sales Router #####___________
+
+enable
+configure terminal
+int fa 0/0
+ip add 12.0.0.1 255.0.0.0
+no shut
+exit
+
+
+int se 0/3/0
+ip add 17.0.0.1 255.0.0.0
+no shut
+exit
+

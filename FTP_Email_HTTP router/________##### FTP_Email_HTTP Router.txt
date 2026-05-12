@@ -1,0 +1,13 @@
+________##### FTP_Email_HTTP Router #####____
+
+enable 
+conf ter
+int fa 0/0
+ip add 14.0.0.1 255.0.0.0
+no shut 
+exit
+
+int se 0/3/0
+ip add 19.0.0.1 255.0.0.0
+no shut
+exit

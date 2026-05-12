@@ -1,0 +1,28 @@
+__________####### Central Router #######_____________
+
+enable 
+config terminal
+int se 0/3/0
+ip address 15.0.0.2 255.0.0.0
+no shut
+exit
+
+int se 0/3/1
+ip address 16.0.0.2 255.0.0.0
+no shut
+exit
+
+int se 0/2/0
+ip address 17.0.0.2 255.0.0.0
+no shut
+exit
+
+int se 0/2/1
+ip address 18.0.0.2 255.0.0.0
+no shut
+exit
+
+int se 0/1/0
+ip address 19.0.0.2 255.0.0.0
+no shut
+exit

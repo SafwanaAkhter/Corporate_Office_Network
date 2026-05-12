@@ -1,0 +1,13 @@
+_________##### Marketing Router #####___________
+
+enable 
+configure terminal
+interface fastethernet 0/0
+ip address 10.0.0.1 255.0.0.0
+no shutdown 
+exit
+
+int se 0/3/0
+ip add 15.0.0.1 255.0.0.0
+no shut 
+exit
